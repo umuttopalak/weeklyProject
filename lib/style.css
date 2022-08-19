@@ -1,0 +1,136 @@
+div#kutukapla {
+  width: 80%;
+  height: 40%;
+  margin: auto;
+  margin-top: 0%;
+  display: flex;
+  /* direction: rtl; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.kisiler {
+  border: 10px dashed purple;
+  width: 400px;
+  height: 800px;
+  background-color: bisque;
+  color: black;
+  margin: 20px;
+  line-height: 75px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+div#baslik {
+  width: 100%;
+  height: 1%;
+  box-sizing: border-box;
+}
+
+h1#baslik {
+  text-align: center;
+  padding: 8px;
+  margin-top: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
+  background-color: bisque;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.kutularYazi {
+  color: black;
+  font-size: 45px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(201, 157, 101);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.resimler {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  margin-top: 20px;
+}
+
+.linkListe {
+  color: black;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 30px;
+  margin-left: 50px;
+  padding: 0px;
+}
+
+.caption {
+  color: black;
+  font-size: 25px;
+  padding-top: 2px;
+  margin: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: beige;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.anafoto {
+  text-align: center;
+}
+
+.anafoto-icon {
+  border: 2px solid black;
+}
+
+.navIcerik {
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: auto;
+  background-color: bisque;
+  margin-top: auto;
+  text-align: center;
+}
+#nav {
+  box-sizing: border-box;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: auto;
+  background-color: bisque;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  width: 85%;
+}
+
+button {
+  padding: 0px 12% 0px 12%;
+  height: 35px;
+  background-color: bisque;
+  border: 0px;
+}
+button:hover {
+  background-color: orange;
+}
+
+div.footer {
+  font-size: 35px;
+  background-color: bisque;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+footer {
+  background-color: bisque;
+  height: 0px;
+  margin-left: 0px;
+  width: 100%;
+}
